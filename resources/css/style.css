@@ -1,0 +1,641 @@
+/*beginning of header and nav */
+.topNavBar .navbar-light .navbar-brand {
+    font-weight: 800;
+    font-family: sans-serif;
+}
+
+.topNavBar .bg-light {
+    background:background: linear-gradient(
+75deg, #3f98cc 40%, #fdcd3b 60%) !important;
+
+}
+
+
+.topNavBar .firstSpanBrand{
+ color:  #fdcd3b;
+    
+}
+
+.topNavBar .secondSpanBrand{
+     color:#3f98cc;
+    
+}
+
+.topNavBar .navbar-light .navbar-nav .nav-link {
+    color:  rgb(0,87,171,1);;
+    transition: all 0.5s ease-in-out 0s;
+        border-radius: 0;
+}
+
+.topNavBar .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+    background-color:#3f98cc ;
+        color:#fdcd3b;
+    transform: scaleX(1.05);
+    
+}
+
+ .topNavBar .navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .nav-link.active {
+     background-color:#fdcd3b  ;
+        color:#0b5ed7;
+    transform: scaleX(1.05);
+    
+}
+
+.topNavBar .btn-outline-success {
+     background-color:#3f98cc ;
+        color:#fdcd3b;
+    transform: scaleX(1.05);}
+
+.topNavBar .btn-outline-success:hover {
+    color: #3f98cc;
+    background-color: #fdcd3b;
+    border-color:none ;
+}
+
+.topNavBar .dropdown-item {
+    background-color:#fdcd3b;
+color: #3f98cc;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.topNavBar .dropdown-menu{
+    padding: 0px;
+}
+
+.topNavBar .dropdown-menu{
+    margin: 0px;
+}
+.topNavBar .dropdown-divider 
+{margin: 0px;
+border-top: 1px solid #3f98cc;}
+
+.topNavBar .dropdown-item:hover, .dropdown-item:focus{
+        background-color:#3f98cc;
+color:#fdcd3b ;
+    padding-left: 3px;
+    
+}
+
+.btn-primary:hover {
+   
+    background-color:#fdcd3b;
+    border: #fdcd3b;
+}
+    
+/*end of header and nav */
+
+/* our misson */
+.firstDivOfHome{
+    background: url(../../imgs/hero-bg.jpg) no-repeat top center fixed;
+    width: 100%;
+    min-height: 450px;
+        background-size: cover;
+    position: relative;
+    top:0;
+    right: 0;
+    
+}
+
+.contentOFHomeDiv{
+    position: absolute;
+    width:600px;
+    transform: translate(0px,70px);
+}
+
+
+.OUR-MISSION
+{
+   background: url(../../imgs/yellow-box-2.png) no-repeat 500px  center fixed ,url(../../imgs/blueBox.jpg) no-repeat -200px center fixed;
+    min-height: 800px;  
+    background-size: cover;
+}
+
+.OUR-MISSION .Test{
+    position: relative;
+}
+
+.OUR-MISSION .test2{
+    
+    position: absolute;
+   transform: translateY(73px);
+    
+}
+.OUR-MISSION .test3{
+    position: absolute;
+    right: 0;
+           transform: translateY(73px);
+    background-color: rgb(255,255,255,.8);
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.OUR-MISSION .h2{
+    color: #114c86;
+    color:#114c86;
+}
+
+.OUR-MISSION .lead{
+    color:#114c86;
+}
+
+
+
+body{
+ 
+   /*olor: rgb(0,87,171,1) ;*/
+   
+}
+
+/* choose Div start  */ 
+
+.HomeSectio .contentOFHomeDiv .h2 ,.HomeSectio .contentOFHomeDiv .h3{
+    color:#0763bd;
+}
+
+.ChooseUS .h2{
+    
+    color: #114c86;
+    
+}
+
+
+
+.ChooseUS .FontIcon{
+    color:#fdcd3b
+   
+}
+
+.ChooseUS .dropdown-divider{
+        border-top: 4px solid rgb(255,170,0,1);
+}
+
+.ChooseUS .h6{
+   color:#114c86;
+}
+
+.ChooseUS .h4{
+   color:#0763bd;
+}
+
+.ChooseUS .lead{
+     color:#114c86;
+}
+
+
+/* section of help */
+.helpSection .h2
+{
+    color:#3f98cc;
+    font-weight: 300;
+}
+    .helpSection .lead {
+            font-weight: 300;
+        font-size: 18px;
+}
+
+.helpSection .accordion-item,.accordion-header
+{
+    background-color: transparent!important;
+    border: none, i !important;
+    padding: 0, i !important;
+    margin-bottom: 20px;
+}
+
+.helpSection .accordion-button 
+{
+    width:100%;
+    height:60px;
+    color:rgb(239, 242, 245);
+    font-weight: bold;
+    text-decoration:darkblue;
+    background-color: #3f98cc;;
+    text-align:center;
+}
+.helpSection .accordion-body
+{
+    color:#114c86;
+}
+
+
+.helpSection .accordion-button:not(.collapsed) {
+    background-color: #fdcd3b;
+    
+}
+
+
+
+/*  off */ 
+
+.offSideMenu .offSideMenu{
+ position: fixed;
+    left: 10px;
+        top:15px;
+    z-index: 3;
+    
+}
+.offSideMenu .offcanvas-header img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:60%;
+    height:130px;
+   
+}
+.offSideMenu .offcanvas
+{
+ /*background-color:rgba(127,203,222,0.9);*/
+ background-color: rgba(255, 255, 255, .4); 
+ backdrop-filter: blur(5px);
+ border-radius: 15px ; 
+ padding-top: 5px;
+ 
+ /*border: 1px solid rgb(0,73,130);*/
+}
+.offSideMenu .list-group-item 
+{
+    background-color: rgba(255, 255, 255, 0); 
+    backdrop-filter: blur(5px);
+    color:#114c86;
+    font-weight:500;
+}
+.offSideMenu .list-group-item:hover{
+    background-color:#fdcd3b;
+    padding:5px;
+    font-weight: 600;
+
+}
+.offSideMenu .h2
+{
+    text-align:center;
+    color:#3f98cc;
+    font-weight:bold;
+    text-shadow: 1px 2px 2px #fdcd3b;
+    
+  
+}
+
+.offSideMenu .b1 .btn-primary {
+    position: fixed;
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    left: 0px;
+    
+    top: 45px;
+    z-index: 1;
+}
+
+@media (min-width:320px) and (max-width:767px)
+{ .offcanvas-header img
+    {width:25%;
+    height:130px;
+    }
+}
+
+.offSideMenu >.col-md-2 , .offSideMenu>.col-12{
+    position: fixed;
+    left: 0;
+    top: 20px;
+    z-index: 1;
+    
+}
+
+
+/*  reviews  */ 
+
+
+.coursel_reviwe .textbold_reviwe
+{
+    left: 25%;
+    right: 25%;
+    background-color:#fdcd3b;
+    text-align: center;
+    padding: 10px;
+   
+  
+}
+.NYC
+{
+    
+}
+.coursel_reviwe .font_reviwe
+{
+        color: #3f98cc;
+        line-height: 1.5;
+        font-family: Lato;
+        font-size: 32px;
+    
+}
+.coursel_reviwe .fontbold_reviwe
+{
+    color: #3f98cc;
+    font-weight: bold;
+    font-family: Lato;
+    font-size: 32px;
+}
+.coursel_reviwe .star_reviwe
+{
+   font-size: 16px;
+    color: white;
+    line-height: 1.4;
+    font-family: Lato;
+    top: 15px;
+}
+ .coursel_reviwe
+{
+
+    text-align: center;
+    background-color:;
+    padding: 15px;
+/*    height: 300px;*/
+        
+}
+.coursel_reviwe .carousel-inner
+{
+    height: 300px;
+    
+    
+}
+.coursel_reviwe .carousel-control-next, .coursel_reviwe .carousel-control-prev {
+    
+    color: #fdcd3b;
+    
+}
+ next:hover, .carousel-control-prev:focus, .carousel-control-prev:hover {
+    color:#2d229c42;
+    
+
+
+}
+.carousel-control-next:focus, .carousel-control-next:hover, .carousel-control-prev:focus, .carousel-control-prev:hover {
+   color:#2d229c42;  
+    
+}
+.fa-5x {
+    font-size: 4em;
+}
+
+
+
+.coursel_reviwe button,.coursel_reviwe  input,.coursel_reviwe optgroup,.coursel_reviwe select, .coursel_reviwe textarea {
+   
+}
+.lead_reviwe
+{
+    font-style: italic;
+    line-height: 1.85;
+    font-family: Poppins;
+     color: #114c86;
+
+}
+
+.qute_reviwe .svg-inline--fa {
+    
+    font-size: 40px;
+    color: #3f98cc;
+    bottom: 20px;
+       
+}
+.star2_reviwe 
+{
+   font-size: 11px;
+   margin-top: 15px;
+    color: #3f98cc;
+    
+}
+.line_reviwe
+{
+  
+    width: 55px;
+   color: #fdcd3b;
+
+    margin: auto;
+   
+}
+hr:not([size]) {
+    height: 1.5px;
+
+}
+.star2_reviwe .name_reviwe
+{
+   font-family: Poppins;
+    font-size: 30px;
+    
+}
+
+.reviwe{
+    color:#114c86;
+}
+
+/* doctor */
+
+.section-title {
+    text-align: center;
+}
+    font-family: "Raleway", sans-serif;
+}h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+
+.section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #2c4964;
+   
+}
+
+.doctors {
+  background: #fff;
+}
+
+.doctors .member {
+  position: relative;
+  box-shadow: 0px 2px 15px rgba(44, 73, 100, 0.08);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.doctors .member .pic {
+  overflow: hidden;
+  width: 180px;
+  border-radius: 50%;
+}
+
+.doctors .member .pic img {
+  transition: ease-in-out 0.3s;
+}
+
+.doctors .member:hover img {
+  transform: scale(1.1);
+}
+
+.doctors .member .member-info {
+  padding-left: 30px;
+}
+
+.doctors .member h4 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: #2c4964;
+}
+.doctors .paragephDoctor{
+    
+  color: #2c4964;  
+}
+
+.doctors .member span {
+  display: block;
+  font-size: 15px;
+  padding-bottom: 10px;
+  position: relative;
+  font-weight: 500;
+}
+
+.doctors .member span::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 25px;
+  height: 1px;
+  background: #b2c8dd;
+  bottom: 0;
+  left: 0;
+}
+
+
+.doctors .member p {
+  margin: 10px 0 0 0;
+  font-size: 14px;
+}
+.doctors .h3{
+    font-weight: 300;
+     color: #2c4964;
+}
+.doctors .section-title{
+    font-weight: 300;
+     color: #2c4964;
+}
+.doctors .member .social {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.doctors .member .social a {
+  transition: ease-in-out 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  width: 32px;
+  height: 32px;
+  background: #a0bcd5;
+}
+
+.doctors .member .social a i {
+  color: #fff;
+  font-size: 16px;
+  margin: 0 2px;
+}
+
+.doctors .member .social a:hover {
+  background: #fdcd3b;
+    transform: scale(1.5);
+}
+.social>a:hover{
+    
+    color:white;
+    background: #fdcd3b;
+}
+
+.doctors .member .social a + a {
+  margin-left: 8px;
+}
+
+/*  footer */
+
+.clinicFooter {
+    
+    background-color: #28292e;
+}
+.clinicFooter .internalNavMyServices  .nav li {
+    width: 100%;
+
+}
+
+
+.clinicFooter .footerMenu li {
+    color: :white;
+    transition: all 0.5s ease-in-out 0s;
+    
+}
+li a {
+    color: :white;
+    
+}
+
+ .clinicFooter .footerMenu li:hover{
+    
+    padding-left: 3px;
+}
+.featurette-divider{
+    background-color: white;
+}
+
+.clinicFooter{
+    color: white;
+    
+}
+
+.clinicFooter a{
+    color:white;
+}
+
+.clinicFooter a:hover{
+    
+    color: #fdcd3b;
+}
+
+.clinicFooter .iconContant{
+    transition: all 0.5s ease-in-out 0s;
+}
+.clinicFooter .iconContant:hover{
+    transform: scale(1.5);
+}
+.clinicFooter .h5{
+    font-weight: 300;
+}
+.clinicFooter .h3{
+    
+    font-weight: 400;
+}
+.footerBottom{
+    background-color: white;
+    color:black;
+}
+ .clinicSpanFooter{
+    color:blue;
+}
+.pargFooter{
+    background-color: white;
+}
+ .location .h3 ,.Email .h3 , .PhoneNo .h3{
+        font-weight: 300;
+    }
+.clinicSpanFooter .servicesHoursFooter{
+    font-weight: 300;
+}

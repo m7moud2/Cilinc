@@ -1,0 +1,23 @@
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.card {
+    border-radius: 0;
+    min-width: 100%;
+}
+
+.row{
+    
+   
+    --bs-gutter-x: 0rem;
+    --bs-gutter-x: yrem;
+}
+
+.container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
+         padding-right: var(--bs-gutter-x, 0rem); 
+     padding-left: var(--bs-gutter-x, 0rem);
+}

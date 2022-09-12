@@ -1,0 +1,792 @@
+<html >
+    <head>
+     <link rel="stylesheet" href="resources/css/bootstrap.css">
+        <link rel="stylesheet" href="resources/css/all.min.css">
+        <link rel="stylesheet" href="resources/css/font-awesome.min.css">
+        <link rel="stylesheet" href="resources/css/style.css">
+        <link rel="stylesheet" href="resources/css/animate.css">
+        <link rel="stylesheet" href="resources/css/mediuaQuery.css">
+         <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    
+    <body data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" tabindex="0">
+        
+         <section class="offSideMenu">
+         <!-- beginning of Off side mrnu bar -->
+            <div class="col-md-2 col-12">
+                
+     <div class="b1">
+      <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+        <i class="fas fa-flask"></i>
+      </button>
+    </div>
+      
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <img class="img-fluid rounded-circle z-depth-2 " alt="100x100" src="imgs/laboratory.jpg"
+            data-holder-rendered="true">
+           
+        </div>
+        <div class="offcanvas-body">
+            <h2 class=" h2 mt-2"> Checkups</h2>
+          <div class="list-group list-group-flush text-center mt-3">
+            <button type="button" class="list-group-item list-group-item-action">Complete Blood Count</button>
+            <button type="button" class="list-group-item list-group-item-action">Fasting Blood Sugar</button>
+            <button type="button" class="list-group-item list-group-item-action">Urea</button>
+            <button type="button" class="list-group-item list-group-item-action">Cholestrol</button>
+            <button type="button" class="list-group-item list-group-item-action">Creatinine</button>
+            <button type="button" class="list-group-item list-group-item-action">Uric Acid</button>
+            <button type="button" class="list-group-item list-group-item-action">HDL</button>
+            <button type="button" class="list-group-item list-group-item-action">LDL</button>
+            <button type="button" class="list-group-item list-group-item-action">urine</button>
+            <button type="button" class="list-group-item list-group-item-action">stool</button>
+            <button type="button" class="list-group-item list-group-item-action">ESR</button>
+            <button type="button" class="list-group-item list-group-item-action">PCR</button>
+          
+        </div>
+        </div>
+      </div>
+            </div>
+      </section>
+        
+        
+        <!-- beinning of header nav -->
+        <header class="topNavBar">
+             <nav id="navbar-example2" class="navbar fixed-top navbar-expand-lg navbar-light bg-light py-0">
+                      <div class="container">
+                          <a class="navbar-brand " href="#"><span class="firstSpanBrand">CLINIC</span> <span class="secondSpanBrand">CENTER </span></a>                          
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#clinicNavbar" aria-controls="clinicNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="clinicNavbar">
+                          <ul class="nav navbar-nav nav-pills me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                              <a class="nav-link active" aria-current="page" href="#scroll1"><i class=" fas fa-home fa-lg pe-1 navIcons"></i>Home</a>
+                            </li>
+                              <li class="nav-item">
+                              <a class="nav-link" href="#doctorId"> <i class="fas fa-user-md fa-lg pe-1 navIcons"></i>DOCTOR</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                               <i class="fas fa-hospital fa-lg pe-1 navIcons"></i> SERVICES
+                              </a>
+                              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">PHYSICAL THERAPY</a></li>
+                                <li><a class="dropdown-item" href="#">PAIN MANAGEMENT</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                              </ul>
+                            </li>
+                               <li class="nav-item">
+                              <a class="nav-link" href="#review"><i class="fas fa-star-half-alt fa-lg pe-1 navIcons"></i>REVIEW</a>
+                            </li>
+                              
+                               <li class="nav-item">
+                              <a class="nav-link" href="#helpSection"><i class="far fa-question-circle fa-lg pe-1 navIcons"></i>HELP</a>
+                            </li>
+                            
+                          </ul>
+                          <form class="d-flex mb-0">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                          </form>
+                        </div>
+                      </div>
+            </nav>
+            </header>
+        
+        <!-- end of header nav -->
+        <!-- beginning of home section -->
+        
+          <section class="HomeSectio" >
+        
+            <div class="firstDivOfHome">
+                <div class="container">
+                    <div class="row">
+                         <div id="scroll1"class="contentOFHomeDiv">
+                            <h2 class="h2"> COVID-19</h2>
+                            <h3 class="h3">CAUGHT IT?</h3>
+                            <h3 class="h3">FIGHT IT.</h3>
+                            <p class="lead h2">FIGHT IT.
+                                                If you are over the age of 18 and have been diagnosed with COVID-19 in the past week and are still experiencing symptoms, you may be eligible to help us in the fight to beat COVID-19 and participate in this important clinical trial.</p>
+
+
+                            <button type="button" class="btn btn-primary  test" data-bs-toggle="modal" data-bs-target="#appintmentModal ">MAKE APPINTMENT</button>
+                  </div>
+                        </div>
+                </div>
+                            <div class="modal fade" id="appintmentModal" tabindex="-1" aria-labelledby="appintemntModalLabel" aria-hidden="true">
+                                <div  class="modal-dialog">
+                                   <div class="modal-content">
+                                       <div class="modal-header">
+                                          <h5 class="modal-title" id="appintemntModalLabel">MAKE APPINTMENT</h5>
+                                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                                       </div>
+                                       <form>
+                                           
+                                       <div class="modal-body">
+                                        
+                                           
+                                            
+                                              <div class="input-group mb-3">
+                                                    <label class="col-12 col-md-4 lead">Patient Name :</label>
+                                                    <input class="form-control col-12 col-md-7 offset-md-1" type="text" required placeholder="insert your name" aria-label="insert your name"  >
+                                               </div>
+                                              
+                                           
+                                           
+                                           <div class="input-group mb-3">
+                                                    <label class=" col-12 col-md-4 lead">Email :</label>
+                                                    <input class="form-control col-12 col-md-7 offset-md-1" type="text" required placeholder="insert your email" aria-label="insert your email" required  aria-describedby="userEmail" >
+                                                    <span class="input-group-text" id="userEmail">@example.com</span>
+                                               </div> 
+                                           
+                                             <div class="input-group mb-3">
+                                                    <label class="col-md-4 col-12 lead">Phone Number :</label>
+                                                    <input class="form-control col-12 col-md-7 offset-md-1" type="text" required placeholder="(999) 999-9999" aria-label="(999) 999-9999"  >
+                                               </div>
+                                           
+                                              <div class="input-group mb-3 ">
+                                                  <div class=" input-group">
+                                                    <label class="col-md-4 col-12 lead">Gender:</label>
+                                                      <div class=" col-md-7 col-12 offset-md-1 lead">
+                                                           <label class="form-check-label" for="Male">Male</label>
+                                                           <input class="form-check-input"  type="radio" name="flexRadioDefault" id="Male" checked>
+                                                          
+                                                          <label class="form-check-label" for="Female">Female</label>
+                                                           <input class="form-check-input" name="flexRadioDefault" type="radio" id="Female" >
+                                                      </div>
+                                                   </div> 
+                                               </div>
+                                           
+                                           <div class="input-group mb-3">
+                                                   <label class="col-12 col-md-4 lead" for="birthday">Birth Date:</label>
+                                                    <input class="col-12 form-control col-md-7 offset-md-1" type="date" required id="birthday" name="birthday">
+                                           </div>
+                                           
+                                            <div class="input-group mb-3">
+                                                   <label class="col-12 col-md-4 lead" for="flexCheckIndeterminate">Insurance:</label>
+                                                   <input class="form-check-input col-12 col-md-7 offset-md-1" type="checkbox" value="" id="flexCheckIndeterminate" required>        
+                                           </div>
+                                           
+                                              <div class="input-group mb-3">
+                                                    <label class="col-12 col-md-4 lead" for="appintemntday">Appintemnt Date:</label>
+                                                    <input class="form-control col-12 col-md-7 offset-md-1" type="date" id="appintemntday" name="appintemntday" required>
+                                           </div>
+                                           
+                                       </div>
+                                        <div class="modal-footer">
+                                         <button class="btn btn-secondary" type="button" data-bs-dismiss="modal">Close</button>
+                                          <button class="btn btn-primary" type="submit" >Submit</button>
+                                       </div>
+                                           </form>
+                                    </div>
+                                
+                                </div>
+                            </div>
+                        </div>
+              
+                 
+              <div id="" class="ChooseUS text-center">
+                 <div class="container">
+                     <div class="row">
+                         <div class="col-8 offset-2 py-5" >
+                     <h2 class="h2 pb-3 wow bounceIn" data-wow-delay="0.3s" data-wow-offset="400"> WHY CHOOSE MEDRITE URGENT CARE?</h2>
+                     <hr class="dropdown-divider">
+
+                     <p class="lead  py-3 wow fadeIn " data-wow-delay="0.3s" data-wow-offset="400">Staffed by board-certified physicians and licensed medical professionals, MedRite Urgent Care is the walk-in clinic to trust when you need to see a provider fast. We make it easy to get the medical attention you need without an appointment or a long wait. Our team provides compassionate care in a comfortable environment that’s designed to promote wellness and healing.</p>
+                             </div>
+                         </div>
+                   <div class="row py-3">
+                       
+                         <div class="col-12 col-md-6 col-lg-3 pb-3 wow fadeInDown" data-wow-delay="0.3s" data-wow-offset="400">
+                           <i class="FontIcon fas fa-hand-holding-usd fa-4x"></i>
+                             <h3 class="h4 py-3">AFFORDABLE</h3>
+                             
+                            <hr class="dropdown-divider">
+                             
+                             <p class="lead py-3">Our copays are often lower than they are at the emergency room, and we accept most major health insurance plans.</p>
+                         </div>
+                       
+                         <div class="col-12 col-md-6 col-lg-3 pb-3 wow fadeInUp" data-wow-delay="0.3s" data-wow-offset="400">
+                             
+                           <i class="FontIcon fas fa-laptop fa-4x" ></i>
+                             <h3 class="h4 py-3">ONLINE SERVICES</h3>
+                             <hr class=" dropdown-divider">
+                             
+                             <p class="lead  py-3">Our wait times are short, and you can save even more time by registering for your visit online.</p>
+                         </div>
+                       
+                       
+                         <div class="col-12 col-md-6 col-lg-3 wow fadeInDown" data-wow-delay="0.3s" data-wow-offset="400">
+                             <i class="FontIcon far fa-clock fa-4x"></i>
+                             <h3 class="h4 py-3">MEXTENDED HOURS</h3>
+                             <hr class="dropdown-divider">
+                             
+                             <p class="lead  py-3">We’re open mornings, evenings, and weekends so that you can see a provider when you need one.</p>
+                         </div>
+                       
+                       
+                         <div class="col-12 col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.3s" data-wow-offset="400">
+                           <i class="FontIcon fas fa-users fa-4x "></i>
+                             <h3 class="h4 py-3">ALL AGES WELCOME</h3>
+                            <hr class="dropdown-divider ">
+                             
+                             <p class="lead  py-3">From newborns to seniors, we are qualified to treat patients of all ages</p>
+                         </div>
+                        
+                     </div>
+                     
+                  
+                  </div>
+              
+              </div>
+                   
+              
+                        <div  class="OUR-MISSION">
+                           <div class="container">
+                               <div class="Test">
+                               <div class="row">
+                                   
+                                 <div class="col-lg-4 d-none d-lg-block test2 wow flipInY" data-wow-delay="0.5s" data-wow-offset="400"> 
+                                     <img class="img-fluid "   src="imgs/doctor-p-500.png">
+                                   
+                                   </div>
+                                  <div class="col-lg-6 col-12 test3 wow fadeIn" data-wow-delay="0.5s" data-wow-offset="400">
+                                      <h2 id="" class="h2 text-center py-4">OUR MISSION</h2>
+                                     <hr class="dropdown-divider ">
+                                      <p class="lead h3 py-4">
+MedRite Urgent Care provides residents and visitors of New York City, NY, and Miami, FL, with a modern solution for urgent medical treatment and routine healthcare. The demands put on us by work obligations, family responsibilities, and hectic schedules can make it difficult to seek medical services within the nine-to-five doctor’s office model. We solve this problem by providing individualized care on a walk-in basis with same-day availability. Our licensed providers can treat virtually all non-life-threatening injuries and illnesses and we also offer services for preventative care, routine wellness, pediatric patients, occupational healthcare, and more. When you need to see a provider quickly, MedRite Urgent Care is here for you , pediatric patients, occupational healthcare, and more. When you need to see a provider quickly, MedRite Urgent Care is here for you.</p>
+                                   <div class="py-3">
+                                   <button type="button pb-3" class="btn btn-primary ">LEARN MORE</button>
+                                   </div>
+                                   </div>
+                               </div>
+                            
+                            </div>
+              
+                        </div>
+              </div>
+              
+              
+              
+              
+              
+              
+            
+        </section>
+        
+         <!-- ======= Doctors Section ======= -->
+      <section id="doctorId" class="doctors py-3">
+        <div class="container">
+  
+          <div class="section-title wow fadeIn " data-wow-delay="0.5s" data-wow-offset="200">
+            <h2>Doctors</h2>
+            <p>Magnam dolores commodi suscipit. Necessitatibus eius 
+  consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. 
+  Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias 
+  ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          </div>
+  
+          <div class="row">
+  
+            <div class="col-lg-6">
+              <div class="member d-flex align-items-start wow fadeIn " data-wow-delay="0.6s" data-wow-offset="200">
+                <div class="pic"><img src="imgs/index1.jpg" class="img-fluid" alt=""></div>
+                <div class="member-info">
+                  <h4 >Walter White</h4>
+                  <span class="h3">Chief Medical Officer</span>
+                  <p class="lead paragephDoctor">Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+                  <div class="social">
+                  <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""> <i class="fab fa-youtube"></i> </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-6 mt-4 mt-lg-0">
+              <div class="member d-flex align-items-start wow fadeIn " data-wow-delay="0.6s" data-wow-offset="200">
+                <div class="pic"><img src="imgs/index2.jpg" class="img-fluid" alt=""></div>
+                <div class="member-info">
+                  <h4 >Sarah Jhonson</h4>
+                  <span class="h3">Anesthesiologist</span>
+                  <p class="lead paragephDoctor">Aut maiores voluptates amet et quis praesentium qui senda para</p>
+                  <div class="social">
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""> <i class="fab fa-youtube"></i> </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-6 mt-4">
+              <div class="member d-flex align-items-start wow fadeIn " data-wow-delay="0.6s" data-wow-offset="200">
+                <div class="pic"><img src="imgs/index3.jpg" class="img-fluid" alt=""></div>
+                <div class="member-info">
+                  <h4 > William Anderson</h4>
+                  <span class="h3">Cardiology</span>
+                  <p class="lead paragephDoctor">Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
+                  <div class="social">
+                   <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""> <i class="fab fa-youtube"></i> </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-6 mt-4 wow fadeIn " data-wow-delay="0.6s" data-wow-offset="200">
+              <div class="member d-flex align-items-start">
+                <div class="pic"><img src="imgs/index4.jpg" class="img-fluid" alt=""></div>
+                <div class="member-info">
+                  <h4>Amanda Jepson</h4>
+                  <span class="h3">Neurosurgeon</span>
+                  <p class="lead paragephDoctor">Dolorum tempora officiis odit laborum officiis et et accusamus</p>
+                  <div class="social">
+                     <a href=""><i class="fab fa-twitter"></i></a>
+                    <a  href=""><i class="fab fa-facebook"></i></a>
+                    <a  href=""><i class="fab fa-instagram"></i></a>
+                    <a  href=""> <i class="fab fa-youtube"></i> </a>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+          </div>
+  
+        </div>
+      </section>
+        <!-- End Doctors Section -->
+        
+        <!-- review Section -->
+            <section class="coursel_reviwe wow fadeIn " data-wow-delay="0.6s" data-wow-offset="200" id="review">
+
+        <div class="container" >
+    <h1 class="reviwe  h1" >CLINC REVIEWS</h1>
+    <section class="textbold_reviwe">
+     <div class="NYC">
+              <p>
+                <span class="font_reviwe h2">NYC’s 5-Star</span>
+                <span class="fontbold_reviwe h2">Urgent Care</span>
+             </p>
+        </div>
+        <p  class="star_reviwe" >
+         <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i>
+     </p>
+        <div class="see_what">
+           <span class="font_reviwe h2">See What People Are </span>
+            <span class="fontbold_reviwe h2"> Saying About MiDoctor:</span>
+        </div>
+    </section>
+        <div class="container">
+     
+    
+    <div id="carouselExampleCaptions" class="carousel slide carousel-wrapper " data-bs-ride="carousel ">
+      <div class="qute_reviwe wow animate__fadeOut " animation-duration= "2s" > <i class="fa fa-quote-right "></i></div> 
+      
+ 
+          
+  <div class="carousel-inner">
+        <div class="carousel-item active">
+        
+
+<p class="lead_reviwe">This clinic a great addition to the neighborhood. Great doctors and providers. Staff are willing to go out of the way to help you. Front desk staff are fantastic, help you with billing insurance and copays. Insurance in general is a scam especially United. They never pay doctors or hospitals. It’s just better to pay up front in cash so you don’t get bills. Also having huge deductible will not cover Urgent or doctor’s visit anyways until you meet deductible. Waiting 2-3 months for an appointment with primary is just useless. Going to MiDoctor is the best thing. You can walk in anytime. Pay a reasonable small upfront free and get taken care of. They will treat you like family. Even the spas don’t look like MiDoc. And the coffee is better than Starbucks 🙂
+<!--
+
+ They have soothing Chamomile tea. Pharmacy is right next door….it’s the best Urgent Care for locals, visitors and international travelers. Sign me up for another visit!”
+-->
+
+                                                     </p>
+            <hr class="line_reviwe">
+<p class="star2_reviwe"> <span class="name_reviwe"> - Bruno, Yelp  rxc </span><i class="fa fa-star"></i> <i class="fa fa-star"></i>  <i class="fa fa-star"></i>  <i class="fa fa-star"></i></p>
+
+        
+    </div>
+        <div class="carousel-item">
+                            <p class="lead_reviwe ">“Really nice and professional staff. Would definitely recommend to others. Some people here complain about they having issues with insurance – not sure how that works in the US. We used our travel insurance, which was accepted here with no issue.”</p>
+                        <hr class="line_reviwe">
+                                <p class="star2_reviwe"> <span class="name_reviwe"> - Olivia, Yelp  </span> <i class="fa fa-star"></i> <i class="fa fa-star"></i>  <i class="fa fa-star"></i>  <i class="fa fa-star"></i></p>
+
+    </div>
+        <div class="carousel-item">
+                    <p class="lead_reviwe">“The best medical experience I’ve had in NYC! The front staff was extremely friendly and welcoming the moment I walked in. The place looks more like a spa than a medical office! I received great care and I never felt rushed. Highly recommend!”</p>
+                            <hr class="line_reviwe">
+                        <p class="star2_reviwe"><span class="name_reviwe"> - Eric, Yelp  </span> <i class="fa fa-star"></i> <i class="fa fa-star"></i>  <i class="fa fa-star"></i>  <i class="fa fa-star"></i></p>
+
+                        </div>
+         <div class="carousel-item">
+                        <p class="lead_reviwe">“Every member of the staff has been wonderful from the front desk to the doctor and medical assistant. The office itself is beautifully done and extremely clean. The waiting room was spacious and had tons of seating.
+
+                        I walked in and was seen immediately after checking in. The medical assistant was extremely friendly and engaging. She explained everything she was doing to keep me at ease.
+
+                        The doctor was extremely friendly and actively listened to what I wanted. I did not feel rushed one bit which is nice because I have visited an urgent care before and I was in and out so quickly and left in pain exactly as I was before with no explanation for why.
+
+                        I definitely recommend this office for anyone in need of health services and wonderful patient services. Often time urgent care centers lack the warmth one would get at there PCP office but in this case it was quite the opposite. Will be visiting again next time I have any issues and I can’t get to my regular doctor.”
+
+                         </p>
+                                     <hr class="line_reviwe">
+                            <p class="star2_reviwe"> <span class="name_reviwe"> - Olivia, Yelp  </span><i class="fa fa-star"></i> <i class="fa fa-star"></i>  <i class="fa fa-star"></i>  <i class="fa fa-star"></i></p>
+       
+    </div>
+         <div class="carousel-item">
+                        <p class="lead_reviwe">“The best medical experience I’ve had in NYC! The front staff was extremely friendly and welcoming the moment I walked in. The place looks more like a spa than a medical office! I received great care and I never felt rushed. Highly recommend!”</p>
+                                     <hr class="line_reviwe">
+
+                     <p class="star2_reviwe"><span class="name_reviwe"> -  Welm, Defo  </span> <i class="fa fa-star"></i> <i class="fa fa-star"></i>  <i class="fa fa-star"></i>  <i class="fa fa-star"></i></p>
+      
+    </div>
+         <div class="carousel-item">
+                 
+             <p class="lead_reviwe">
+        “Friendly staff. Clean facility. Great location to where we were staying as we were out-of-towners. My friend was in severe pain and they got her back to be seen quickly. Offered me water and the TV while I waited. Would recommend MiDoctor Urgent Care Clinic.”</p>
+        <hr class="line_reviwe">
+        <p class="star2_reviwe">  <span class="name_reviwe"> - Cindy, Google  </span><i class="fa fa-star"></i> <i class="fa fa-star"></i>  <i class="fa fa-star"></i>  <i class="fa fa-star"></i></p>
+       
+    </div>
+         <div class="carousel-item">
+                    <p class="lead_reviwe">“I came here for the first time a few days ago, and all I can say is it was an amazing experience the entire time (despite how much pain I was in). The person at the front desk was very polite and funny, he was able to take my mind off the pain. I waited for about 15 minutes and then I was taken to a room where the doctor was promptly available to diagnose me.
+
+                    I have had some not so pleasant experiences with quick cares, and I understand that it’s usually because they’re extremely busy. However with MiDoctor, they were exceptionally polite and sweet no matter how packed they were.
+
+                    I will never go to another quick care again! Thanks guys!”
+
+                     </p>
+                             <hr class="line_reviwe">
+                    <p class="star2_reviwe"><span class="name_reviwe ">- Isabella, Yelp</span>  <i class="fa fa-star"></i> <i class="fa fa-star"></i>  <i class="fa fa-star"></i>  <i class="fa fa-star"></i></p>
+      
+    </div>
+           
+
+           <div class="carousel-item">
+                    <p class="lead_reviwe">“I came here for the first time a few days ago, and all I can say is it was an amazing experience the entire time (despite how much pain I was in). The person at the front desk was very polite and funny, he was able to take my mind off the pain. I waited for about 15 minutes and then I was taken to a room where the doctor was promptly available to diagnose me.
+
+                    I have had some not so pleasant experiences with quick cares, and I understand that it’s usually because they’re extremely busy. However with MiDoctor, they were exceptionally polite and sweet no matter how packed they were.
+
+                    I will never go to another quick care again! Thanks guys!”
+
+                     </p>
+                        <hr class="line_reviwe">
+             
+                <p class="star2_reviwe"><span class="name_reviwe"> - Dmango, Yelp </span> <i class="fa fa-star"></i> <i class="fa fa-star"></i>  <i class="fa fa-star"></i>  <i class="fa fa-star"></i></p>
+       
+    </div>
+
+    </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                            <span ><i class="fas fa-chevron-left fa-4x"></i></span>
+        </button>
+       <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                            <span><i class="fas fa-chevron-right fa-5x"></i></span>
+         </button>
+</div>
+        </div>
+            
+   
+                </div>
+        </section>
+    
+    
+        
+        <!-- section help -->
+               <section  class="helpSection">
+    <h2 id="helpSection" class="h2 text-center mt-3">Frequent Question Asked</h2>
+   
+    <div class="container1">
+    <div class="container">
+        <div class="row ">
+        <div class="col-8 offset-2 ">
+                <div class="accordion accordion-flush " id="accordionFlushExample" >
+                     <div class="accordion-item wow fadeInLeft" data-wow-duration="2s" data-wow-offset="200" >
+                        <h2 class="h2 accordion-header mt-4 wow " id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne" >
+                                What is the common signs of lymphoma?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p class="lead h5">
+                                
+                                    <li>Fever</li>
+                                    <li>Night sweats</li>
+                                    <li>Feeling tired</li>
+                                    <li>Unexplained weight loss</li>
+                                    <li>Itchy skin</li>
+                                
+                            </p>
+                        
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item  wow fadeInRight" data-wow-duration="2s" data-wow-offset="200">
+                        <h2 class=" h2 accordion-header " id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
+                                What Is Autism?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body"><p class="lead h5">People with autism have trouble with communication. They have trouble understanding what other people think and feel. This makes it hard for them to express themselves,
+                                 either with words or through gestures, facial expressions, and touch.</p></div>
+                        </div>
+                    </div>
+                   <div class="accordion-item wow fadeInLeft" data-wow-duration="2s" data-wow-offset="200">
+                        <h2 class=" h2 accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                aria-controls="flush-collapseThree">
+                                What is meant by QALYs?  Is there a difference between quality and
+                                quantity of life?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body"><p class="lead h5">QALYs are Quality Adjusted Life Years. These were developed to place
+                                a measurable value to the quality and quantity of life. They were used to
+                                try and assess the value of different health measures. More recently,
+                                the value of ‘quantity’ over quality has been re-emphasized, i.e. a long
+                                life of diminished quality could be as worthwhile as a short life of high
+                                quality</p></div>
+                        </div>
+                    </div>
+                    <div class="accordion-item wow fadeInRight" data-wow-duration="2s" data-wow-offset="200">
+                        <h2 class="h2 accordion-header " id="flush-headingfourth">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapsefourth" aria-expanded="false"
+                                aria-controls="flush-collapsefourth">
+                                Is the role of the advocate in a medical interview to help the patient or the doctor?
+                            </button>
+                        </h2>
+                        <div id="flush-collapsefourth" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingfourth" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body"><p class="lead h5">Both! However, an advocate represents the values, interests and desires
+                                of patients and speaks on their behalf. She or he protects their rights,
+                                helps with consent, protects patients’ autonomy and ensures that they
+                                receive their fair share of resources. From a doctor’s point of view, it is
+                                nice to have someone who can interpret patients’ needs</p></div>
+                        </div>
+                    </div>
+                    <div class="accordion-item wow fadeInLeft " data-wow-duration="2s" data-wow-offset="200">
+                        <h2 class=" h2 accordion-header" id="flush-headingfifth">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapsefifth" aria-expanded="false"
+                                aria-controls="flush-collapsefifth">
+                                Why do mitochondrial diseases cause a myopathy?
+                            </button>
+                        </h2>
+                        <div id="flush-collapsefifth" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingfifth" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body"><p class="lead h5">Muscles derive energy via oxidative phosphorylation. Mutations in
+                                mitochrondrial DNA impair oxidative phosphorylation.</p></div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item wow fadeInRight" data-wow-duration="2s"  data-wow-offset="200">
+                        <h2 class="h2 accordion-header " id="flush-headingsix">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapsesix" aria-expanded="false"
+                                aria-controls="flush-collapsesix">
+                                Why do successive generations of patients with some genetic disorders are worse symptoms?
+                            </button>
+                        </h2>
+                        <div id="flush-collapsesix" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingsix" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body"><p class="lead h5">Muscles derive energy via oxidative phosphorylation. Mutations in
+                                mitochrondrial DNA impair oxidative phosphorylation.</p></div>
+                        </div>
+                    </div>
+                    <div class="accordion-item wow fadeInLeft" data-wow-duration="2s" data-wow-offset="200">
+                        <h2 class="h2 accordion-header "id="flush-headingseven">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseseven" aria-expanded="false"
+                                aria-controls="flush-collapseseven">
+                                How do you define autoimmune disease?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseseven" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingseven" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body"><p class="lead h5">In autoimmune disorders, the body generates immune responses against
+                                its own tissues, producing autoreactive T cells and autoantibodies. In
+                                normal development, T and B lymphocytes that recognize ‘self’ antigens
+                                are deleted in the thymus and bone marrow (central tolerance). Those
+                                that escape are suppressed by regulatory T cells in the circulation.</p></div>
+                        </div>
+                    </div>
+                     <div  class="accordion-item wow fadeInLeft " data-wow-duration="2s" data-wow-offset="200">
+                        <h2 class=" h2 accordion-header" id="flush-headingfifth">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapsefifth" aria-expanded="false"
+                                aria-controls="flush-collapsefifth">
+                                Why do mitochondrial diseases cause a myopathy?
+                            </button>
+                        </h2>
+                        <div id="flush-collapsefifth" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingfifth" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body"><p class="lead h5">Muscles derive energy via oxidative phosphorylation. Mutations in
+                                mitochrondrial DNA impair oxidative phosphorylation.</p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+            
+        </div>
+             
+        </div>
+    
+</div>
+</section>
+        
+       
+        <!-- end of home section -->
+        
+         <!-- footer Beginning -->
+      <footer class="mainfooter">
+              <div class="clinicFooter py-4">
+           <div class="container ">
+                 <div class="row ">
+                     <div class="col-12 col-lg-4 wow fadeIn " data-wow-delay="0.6s" data-wow-offset="200">
+                         <h1 class="h3 " > Menu List</h1>
+                         <div class="footerMenu pb-3">
+                         
+                         
+                             <ul class="nav  flex-column  lead h5 ">
+                               <li class="nav-item  "><a class="nav-link py-2" href="#">Home</a>
+                               </li>
+                                <hr class="featurette-divider my-0">
+                               <li class="nav-item "><a class="nav-link py-2" href="#">Doctor</a></li>
+                               <hr class="featurette-divider my-0">
+                               <li class="internalNavMyServices nav-item">
+                                   <a class="nav-link py-2" data-bs-toggle="collapse" href="#subMenu" role="button" aria-expanded="false" aria-controls="subMenu" > Services</a>
+                                   <ul class="collapse   flex nav  lead h5" id="subMenu" style="width: 100%;">
+
+                                     <li class="nav-item" >  <a class="nav-link py-2" href="#">Action</a> </li>
+                                     <li class="nav-item"> <a class="nav-link py-2" href="#">Another action</a></li>
+                                    <li class="nav-item">  <a class="nav-link py-2"  href="#">Something else here</a></li>
+                                   
+                                   </ul>
+                                
+                               </li>
+                               <hr class="featurette-divider my-0">
+                               <li class="nav-item "><a class="nav-link py-2" href="#">Reveiw</a></li>
+                               <hr class="featurette-divider my-0">
+                               <li class="nav-item "><a class="nav-link py-2" href="#">Help</a></li>
+                              </ul>
+                    </div>
+                         </div>
+                         
+                      <div class="col-12 col-lg-4 ">
+                          <div class="servicesHoursFooter pb-3 wow fadeIn " data-wow-delay="0.6s" data-wow-offset="200">
+                              <h2 class="h3 text-center" >Services Hours</h2>
+                                      <div class="">
+                                          <div class="d-flex py-2 justify-content-around">
+                                              <h4 class=" h5 "> Monday</h4>
+                                              <h4 class=" h5">08:00 AM - 10:00 PM </h4>
+                                        </div>
+                                          <div class="d-flex py-2 justify-content-around">
+                                                      <h4 class=" h5"> Tuseday</h4>
+                                                      <h4 class=" h5">08:00 AM - 10:00 PM </h4>
+                                          </div>
+                                              <div class="d-flex py-2 justify-content-around">
+                                                      <h4 class=" h5"> Wednesday </h4>
+                                                      <h4 class=" h5">08:00 AM - 10:00 PM </h4>
+                                          </div>
+                                              <div class="d-flex py-2 justify-content-around">
+                                                      <h4 class=" h5"> Thursday</h4>
+                                                      <h4 class=" h5">08:00 AM - 10:00 PM </h4>
+                                          </div>
+                                             <div class="d-flex py-2 justify-content-around">
+                                                      <h4 class=" h5"> Friday</h4>
+                                                      <h4 class=" h5">08:00 AM - 05:00 PM </h4>
+                                          </div>
+                                             <div class="d-flex py-2 justify-content-around">
+                                                      <h4 class=" h5"> Saturday</h4>
+                                                      <h4 class=" h5">08:00 AM - 03:00 PM </h4>
+                                          </div>
+                                             <div class="d-flex py-2 justify-content-around">
+                                                      <h4 class=" h5"> Sunday</h4>
+                                                      <h4 class=" h5">08:00 AM - 03:00 PM </h4>
+                                          </div>
+                                          
+                                          </div>
+                          </div>
+                           
+                     </div>
+                     
+                      <div class="col-12 col-lg-4 text-center wow fadeIn " data-wow-delay="0.6s" data-wow-offset="200">
+                          
+                        <div class="location ">
+                            <h1 class="h3 pb-3"> Location</h1>
+                             <i class="fas fa-map-marker-alt"></i>
+                            <h2 class="h5 lead">  <span>444 S. Cedros Ave</span> Solana Beach, California</h2>
+                          </div>
+                          <div class="PhoneNo ">
+                              <h1 class="h3 py-2"> Contant US</h1>
+                              <i class="fas fa-phone"></i>
+                             <h2 class="h5 lead"> +1.555.555.5555</h2>
+                          </div>
+                          
+                          <div class="Email ">
+                              <i class="fas fa-envelope"></i>
+                             <h2 class="lead h5"> Support@company@gmail.com</h2>
+                           
+                          <div>
+                             <hr class="featurette-divider socialMediaFooter">
+                             <div class="row pt-1 pb-3 ">
+                                <div class="d-flex justify-content-center ">
+                               <a class="iconContant px-2" href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
+                                <a class="iconContant px-2" href="#"><i class="fab fa-twitter-square fa-2x"></i></a>
+                               <a class="iconContant px-2" href="#"><i class="fab fa-whatsapp-square fa-2x"></i></a>
+                                <a class="iconContant px-2" href="#"><i class="fas fa-phone-square-alt fa-2x"></i></a>
+                               
+                                </div>   
+                          
+                          </div>
+                     </div>
+                     </div>
+                         
+                </div>
+               </div>
+            
+               </div>
+              </div>
+              <div class="footerBottom wow fadeIn " data-wow-delay="0.6s" data-wow-offset="200">
+                  <div class="container">
+                                 <div  class="row">
+              <div class=" text-center py-3 ">
+                  <p class="lead pargFooter">  Copyright © 2061 Your <span class="clinicSpanFooter"> clinic</span>. Design : <span class="clinicSpanFooter">Team Two </span> </p>
+           </div>
+        </div>
+                  </div>
+              </div>
+            
+        </footer>
+        
+        <script src="resources/js/all.min.js"></script>
+        <script src="resources/js/wow.min.js"></script>
+    <script>new WOW().init();</script>
+    
+             <script src="resources/js/bootstrap.bundle.js"></script>
+           <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+        integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+        integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+        crossorigin="anonymous"></script>
+
+    </body>
+
+</html>

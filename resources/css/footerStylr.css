@@ -1,0 +1,65 @@
+.clinicFooter {
+    
+    background-color: #28292e;
+}
+.clinicFooter .internalNavMyServices  .nav li {
+    width: 100%;
+
+}
+
+
+.clinicFooter .footerMenu li {
+    color: :white;
+    transition: all 0.5s ease-in-out 0s;
+    
+}
+li a {
+    color: :white;
+    
+}
+
+ .clinicFooter .footerMenu li:hover{
+    
+    padding-left: 3px;
+}
+.featurette-divider{
+    background-color: white;
+}
+
+.clinicFooter{
+    color: white;
+    
+}
+
+.clinicFooter a{
+    color:white;
+}
+
+.clinicFooter a:hover{
+    
+    color: #fdcd3b;
+}
+
+.clinicFooter .iconContant{
+    transition: all 0.5s ease-in-out 0s;
+}
+.clinicFooter .iconContant:hover{
+    transform: scale(1.5);
+}
+.clinicFooter .h5{
+    font-weight: 300;
+}
+.clinicFooter .h3{
+    
+    font-weight: 400;
+}
+r .footerBottom{
+    background-color: white;
+    color:black;
+}
+ .clinicSpanFooter{
+    color:blue;
+}
+.pargFooter{
+    background-color: white;
+}

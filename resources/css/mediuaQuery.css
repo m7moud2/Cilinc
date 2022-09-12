@@ -1,0 +1,234 @@
+/* media queriy */
+
+/* from 0 to mobile and tablet */
+@media (max-width:767px)
+{
+   
+  
+.OUR-MISSION
+{
+   background: url(../../imgs/yellow-box-2.png) no-repeat center  center fixed ;
+    min-height: 650px;  
+    background-size: cover;
+}
+       .OUR-MISSION .lead{
+    color:#114c86;
+        font-size: 15px;
+}
+    .OUR-MISSION .Test{
+    position: none;
+}
+    
+    .OUR-MISSION .test3{
+    position: none;
+    
+           
+    background-color: rgb(255,255,255,.8);
+    
+    
+
+}
+    .HomeSectio .contentOFHomeDiv .h2{
+        font-size: 20px;
+    }
+    .HomeSectio .contentOFHomeDiv .h3 {
+    font-size: 15px;
+    }
+    
+    .contentOFHomeDiv {
+    
+    width: 300px;
+    
+}
+    .HomeSectio .btn-primary{
+        
+        font-size: 10px;
+    }
+    .fa-4x {
+    font-size: 2em;
+}
+    
+    .ChooseUS .dropdown-divider{
+        border-top: 1px solid rgb(255,170,0,1);
+}
+    .ChooseUS .h4{
+   font-size: 18px;
+}
+    
+    .ChooseUS .lead{
+     font-size: 14px;
+}
+    .ChooseUS .h2 {
+    font-size: 20px;
+}
+    
+    .helpSection .accordion-button{
+        font-size: 14px;
+        font-weight: 300;
+        
+    }
+    .helpSection .lead {
+            font-weight: 300;
+        font-size: 12px;
+}
+    
+       textbold_reviwe .NYC.fontbold_reviwe
+{
+         
+        font-size: 50px;
+        color: aqua;
+    }  
+    .coursel_reviwe .lead_reviwe
+    {
+            font-weight: 300;
+        font-size: 12px;
+        
+    }
+    .coursel_reviwe .h2{
+        
+        font-size: 16px;
+        font-weight: 300;
+    }
+    
+     .coursel_reviwe .h1
+    {
+        font-size: 18px;
+        
+    }
+    .helpSection .h2 {
+        font-size: 18px;
+    }
+    .servicesHoursFooter .h5{
+        font-size: 14px;
+    }
+    
+    .helpSection .h3{
+        font-size: 18px;
+    }
+    .location .h3 ,.Email .h3 , .PhoneNo .h3{
+        font-size: 18px;
+    }
+    .location .h5 , .PhoneNo .h5 ,.Email .h5 {
+        font-size: 14px;
+    }
+    .footerBottom .lead{
+        font-size: 14px;
+        
+    }
+    .footerMenu .nav-link{
+        font-size: 14px;
+    }
+}
+
+/* small to medium */
+
+/* small screen */
+
+@media (min-width:768px) and (max-width:991px)
+{
+  .OUR-MISSION
+{
+   background: url(../../imgs/yellow-box-2.png) no-repeat center  center fixed ;
+    min-height: 800px;  
+    background-size: cover;
+}
+    .OUR-MISSION .lead{
+    color:#114c86;
+        font-size: 25px;
+}
+ .HomeSectio .contentOFHomeDiv .h2{
+        font-size: 25px;
+    }
+    .HomeSectio .contentOFHomeDiv .h3 {
+    font-size: 25px;
+    }
+    .HomeSectio .btn-primary{
+        
+        font-size: 15px;
+    }
+    
+        .fa-4x {
+    font-size: 1.8em;
+}
+    
+    .ChooseUS .dropdown-divider{
+        border-top: 1px solid rgb(255,170,0,1);
+}
+    .ChooseUS .h4{
+   font-size: 20px;
+}
+    
+    .ChooseUS .lead{
+     font-size: 16px;
+}
+    .ChooseUS .h2 {
+    font-size: 23px;
+}
+        .helpSection .accordion-button{
+        font-size: 17px;
+        font-weight: 300;
+        
+    }
+    .helpSection .lead {
+            font-weight: 300;
+        font-size: 14px;
+}
+     .coursel_reviwe .lead_reviwe
+    {
+           font-weight: 300;
+        font-size: 14px;
+        
+    }
+    
+    .coursel_reviwe .h1
+    {
+        font-size: 26px;
+        
+    }
+    .coursel_reviwe .h2{
+        
+        font-size: 23px;
+    }
+    
+      .servicesHoursFooter .h5{
+        font-size: 18px;
+    }
+    
+    .helpSection .h3{
+        font-size: 18px;
+    }
+    .location .h3 ,.Email .h3 , .PhoneNo .h3{
+        font-size: 20px;
+    }
+    .location .h5 , .PhoneNo .h5 ,.Email .h5 {
+        font-size: 18px;
+    }
+    .footerBottom .lead{
+        font-size: 18px;
+        
+    }
+    .footerMenu .nav-link{
+        font-size: 18px;
+    }
+}
+
+/* medium screen*/ 
+
+@media (min-width:992px) and (max-width:1199px)  
+{
+ .OUR-MISSION
+{
+   background: url(../../imgs/yellow-box-2.png) no-repeat center  center fixed ;
+    min-height: 800px;  
+    background-size: cover;
+}
+
+
+}
+
+
+@media (min-width:1200px)
+{
+    
+}
+
